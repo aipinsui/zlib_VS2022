@@ -1,0 +1,9 @@
+﻿  1>
+  -- Install configuration: "Release"
+  -- Installing: E:/zlib_vs2022/package/lib/zlib.lib
+  -- Installing: E:/zlib_vs2022/package/bin/zlib.dll
+  -- Installing: E:/zlib_vs2022/package/lib/zlibstatic.lib
+  -- Installing: E:/zlib_vs2022/package/include/zconf.h
+  -- Installing: E:/zlib_vs2022/package/include/zlib.h
+  -- Installing: E:/zlib_vs2022/package/share/man/man3/zlib.3
+  -- Installing: E:/zlib_vs2022/package/share/pkgconfig/zlib.pc

@@ -1,0 +1,19 @@
+﻿  Building Custom Rule E:/zlib_vs2022/CMakeLists.txt
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  正在生成代码...
+    正在创建库 E:/zlib_vs2022/build/Debug/zlibd.lib 和对象 E:/zlib_vs2022/build/Debug/zlibd.exp
+  zlib.vcxproj -> E:\zlib_vs2022\build\Debug\zlibd.dll
