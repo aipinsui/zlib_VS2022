@@ -1,4 +1,4 @@
-﻿  Building Custom Rule E:/zlib_vs2022/CMakeLists.txt
+﻿  Building Custom Rule E:/zlib_VS2022/CMakeLists.txt
   adler32.c
   compress.c
   crc32.c
@@ -7,13 +7,13 @@
   gzlib.c
   gzread.c
   gzwrite.c
-  inflate.c
   infback.c
-  inftrees.c
   inffast.c
+  inflate.c
+  inftrees.c
   trees.c
   uncompr.c
   zutil.c
   正在生成代码...
-    正在创建库 E:/zlib_vs2022/build/Release/zlib.lib 和对象 E:/zlib_vs2022/build/Release/zlib.exp
-  zlib.vcxproj -> E:\zlib_vs2022\build\Release\zlib.dll
+    正在创建库 E:/zlib_VS2022/build/Release/zlib.lib 和对象 E:/zlib_VS2022/build/Release/zlib.exp
+  zlib.vcxproj -> E:\zlib_VS2022\build\Release\zlib.dll

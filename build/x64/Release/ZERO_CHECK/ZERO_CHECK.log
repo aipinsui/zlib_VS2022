@@ -1,1 +1,9 @@
 ﻿  1>Checking Build System
+  CMake is re-running because E:/zlib_vs2022/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'E:/zlib_vs2022/zconf.h.cmakein'
+    is newer than 'E:/zlib_vs2022/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+  -- Configuring done (0.0s)
+  -- Generating done (0.0s)
+  -- Build files have been written to: E:/zlib_VS2022/build

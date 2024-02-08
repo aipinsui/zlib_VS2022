@@ -21,9 +21,9 @@ D:/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
 D:/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
 D:/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
 D:/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
-E:/zlib_vs2022/CMakeLists.txt
-E:/zlib_vs2022/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake
-E:/zlib_vs2022/build/CMakeFiles/3.28.3/CMakeRCCompiler.cmake
-E:/zlib_vs2022/build/CMakeFiles/3.28.3/CMakeSystem.cmake
-E:/zlib_vs2022/zconf.h.cmakein
-E:/zlib_vs2022/zlib.pc.cmakein
+E:/zlib_VS2022/CMakeLists.txt
+E:/zlib_VS2022/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake
+E:/zlib_VS2022/build/CMakeFiles/3.28.3/CMakeRCCompiler.cmake
+E:/zlib_VS2022/build/CMakeFiles/3.28.3/CMakeSystem.cmake
+E:/zlib_VS2022/zconf.h.cmakein
+E:/zlib_VS2022/zlib.pc.cmakein

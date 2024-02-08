@@ -1,4 +1,4 @@
-# Install script for directory: E:/zlib_vs2022
+# Install script for directory: E:/zlib_VS2022
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,7 +42,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/zlib_vs2022/build/Debug/zlibd.lib")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/zlib_VS2022/build/Debug/zlibd.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "E:/zlib_vs2022/package/lib/zlib.lib")
@@ -52,7 +52,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/zlib_vs2022/build/Release/zlib.lib")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/zlib_VS2022/build/Release/zlib.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "E:/zlib_vs2022/package/lib/zlib.lib")
@@ -62,7 +62,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/zlib_vs2022/build/MinSizeRel/zlib.lib")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/zlib_VS2022/build/MinSizeRel/zlib.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "E:/zlib_vs2022/package/lib/zlib.lib")
@@ -72,7 +72,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/zlib_vs2022/build/RelWithDebInfo/zlib.lib")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/zlib_VS2022/build/RelWithDebInfo/zlib.lib")
   endif()
 endif()
 
@@ -86,7 +86,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/bin" TYPE SHARED_LIBRARY FILES "E:/zlib_vs2022/build/Debug/zlibd.dll")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/bin" TYPE SHARED_LIBRARY FILES "E:/zlib_VS2022/build/Debug/zlibd.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "E:/zlib_vs2022/package/bin/zlib.dll")
@@ -96,7 +96,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/bin" TYPE SHARED_LIBRARY FILES "E:/zlib_vs2022/build/Release/zlib.dll")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/bin" TYPE SHARED_LIBRARY FILES "E:/zlib_VS2022/build/Release/zlib.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "E:/zlib_vs2022/package/bin/zlib.dll")
@@ -106,7 +106,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/bin" TYPE SHARED_LIBRARY FILES "E:/zlib_vs2022/build/MinSizeRel/zlib.dll")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/bin" TYPE SHARED_LIBRARY FILES "E:/zlib_VS2022/build/MinSizeRel/zlib.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "E:/zlib_vs2022/package/bin/zlib.dll")
@@ -116,7 +116,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/bin" TYPE SHARED_LIBRARY FILES "E:/zlib_vs2022/build/RelWithDebInfo/zlib.dll")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/bin" TYPE SHARED_LIBRARY FILES "E:/zlib_VS2022/build/RelWithDebInfo/zlib.dll")
   endif()
 endif()
 
@@ -130,7 +130,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY FILES "E:/zlib_vs2022/build/Debug/zlibstaticd.lib")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY FILES "E:/zlib_VS2022/build/Debug/zlibstaticd.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "E:/zlib_vs2022/package/lib/zlibstatic.lib")
@@ -140,7 +140,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY FILES "E:/zlib_vs2022/build/Release/zlibstatic.lib")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY FILES "E:/zlib_VS2022/build/Release/zlibstatic.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "E:/zlib_vs2022/package/lib/zlibstatic.lib")
@@ -150,7 +150,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY FILES "E:/zlib_vs2022/build/MinSizeRel/zlibstatic.lib")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY FILES "E:/zlib_VS2022/build/MinSizeRel/zlibstatic.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "E:/zlib_vs2022/package/lib/zlibstatic.lib")
@@ -160,7 +160,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY FILES "E:/zlib_vs2022/build/RelWithDebInfo/zlibstatic.lib")
+    file(INSTALL DESTINATION "E:/zlib_vs2022/package/lib" TYPE STATIC_LIBRARY FILES "E:/zlib_VS2022/build/RelWithDebInfo/zlibstatic.lib")
   endif()
 endif()
 
@@ -174,8 +174,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "E:/zlib_vs2022/package/include" TYPE FILE FILES
-    "E:/zlib_vs2022/build/zconf.h"
-    "E:/zlib_vs2022/zlib.h"
+    "E:/zlib_VS2022/build/zconf.h"
+    "E:/zlib_VS2022/zlib.h"
     )
 endif()
 
@@ -188,7 +188,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "E:/zlib_vs2022/package/share/man/man3" TYPE FILE FILES "E:/zlib_vs2022/zlib.3")
+  file(INSTALL DESTINATION "E:/zlib_vs2022/package/share/man/man3" TYPE FILE FILES "E:/zlib_VS2022/zlib.3")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -200,7 +200,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "E:/zlib_vs2022/package/share/pkgconfig" TYPE FILE FILES "E:/zlib_vs2022/build/zlib.pc")
+  file(INSTALL DESTINATION "E:/zlib_vs2022/package/share/pkgconfig" TYPE FILE FILES "E:/zlib_VS2022/build/zlib.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -211,5 +211,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/zlib_vs2022/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/zlib_VS2022/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

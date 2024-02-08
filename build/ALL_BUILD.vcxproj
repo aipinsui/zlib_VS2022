@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D4256CE6-4B52-3A35-89CF-F82D6B576E06}</ProjectGuid>
+    <ProjectGuid>{FFD73186-AA0A-36E9-8006-16AFCB95E2E6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\zlib_vs2022;E:\zlib_vs2022\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\zlib_VS2022;E:\zlib_VS2022\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\zlib_vs2022;E:\zlib_vs2022\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\zlib_VS2022;E:\zlib_VS2022\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\zlib_vs2022;E:\zlib_vs2022\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\zlib_VS2022;E:\zlib_VS2022\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\zlib_vs2022;E:\zlib_vs2022\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\zlib_VS2022;E:\zlib_VS2022\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\zlib_vs2022\CMakeLists.txt">
+    <CustomBuild Include="E:\zlib_VS2022\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/zlib_vs2022/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/zlib_VS2022/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-D:\CMake\bin\cmake.exe -SE:/zlib_vs2022 -BE:/zlib_vs2022/build --check-stamp-file E:/zlib_vs2022/build/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SE:/zlib_VS2022 -BE:/zlib_VS2022/build --check-stamp-file E:/zlib_VS2022/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeSystem.cmake;E:\zlib_vs2022\zconf.h.cmakein;E:\zlib_vs2022\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\zlib_vs2022\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeSystem.cmake;E:\zlib_VS2022\zconf.h.cmakein;E:\zlib_VS2022\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\zlib_VS2022\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/zlib_vs2022/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/zlib_VS2022/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\CMake\bin\cmake.exe -SE:/zlib_vs2022 -BE:/zlib_vs2022/build --check-stamp-file E:/zlib_vs2022/build/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SE:/zlib_VS2022 -BE:/zlib_VS2022/build --check-stamp-file E:/zlib_VS2022/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeSystem.cmake;E:\zlib_vs2022\zconf.h.cmakein;E:\zlib_vs2022\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\zlib_vs2022\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeSystem.cmake;E:\zlib_VS2022\zconf.h.cmakein;E:\zlib_VS2022\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\zlib_VS2022\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/zlib_vs2022/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/zlib_VS2022/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\CMake\bin\cmake.exe -SE:/zlib_vs2022 -BE:/zlib_vs2022/build --check-stamp-file E:/zlib_vs2022/build/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SE:/zlib_VS2022 -BE:/zlib_VS2022/build --check-stamp-file E:/zlib_VS2022/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeSystem.cmake;E:\zlib_vs2022\zconf.h.cmakein;E:\zlib_vs2022\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\zlib_vs2022\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeSystem.cmake;E:\zlib_VS2022\zconf.h.cmakein;E:\zlib_VS2022\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\zlib_VS2022\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/zlib_vs2022/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/zlib_VS2022/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\CMake\bin\cmake.exe -SE:/zlib_vs2022 -BE:/zlib_vs2022/build --check-stamp-file E:/zlib_vs2022/build/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SE:/zlib_VS2022 -BE:/zlib_VS2022/build --check-stamp-file E:/zlib_VS2022/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,34 +159,34 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;E:\zlib_vs2022\build\CMakeFiles\3.28.3\CMakeSystem.cmake;E:\zlib_vs2022\zconf.h.cmakein;E:\zlib_vs2022\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\zlib_vs2022\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;E:\zlib_VS2022\build\CMakeFiles\3.28.3\CMakeSystem.cmake;E:\zlib_VS2022\zconf.h.cmakein;E:\zlib_VS2022\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\zlib_VS2022\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\zlib_vs2022\build\ZERO_CHECK.vcxproj">
-      <Project>{5D94A66E-78D4-31B0-A61C-CA9B17A79FDF}</Project>
+    <ProjectReference Include="E:\zlib_VS2022\build\ZERO_CHECK.vcxproj">
+      <Project>{F5B4712B-565C-31FE-A1A2-0528068CEAD7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\zlib_vs2022\build\example.vcxproj">
-      <Project>{12B6FD0B-30E0-39DB-8ECC-368976DF06B8}</Project>
+    <ProjectReference Include="E:\zlib_VS2022\build\example.vcxproj">
+      <Project>{22ACBF4F-AE02-3015-83AE-1729BCA94B6B}</Project>
       <Name>example</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\zlib_vs2022\build\minigzip.vcxproj">
-      <Project>{D1CA2533-73A8-32B5-A93B-C418ED7F1C4D}</Project>
+    <ProjectReference Include="E:\zlib_VS2022\build\minigzip.vcxproj">
+      <Project>{1040D615-CD91-3E8D-AC5F-F6A885172140}</Project>
       <Name>minigzip</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\zlib_vs2022\build\zlib.vcxproj">
-      <Project>{8DB23BDD-87E1-377C-A254-28D8B772EDA1}</Project>
+    <ProjectReference Include="E:\zlib_VS2022\build\zlib.vcxproj">
+      <Project>{67CD1530-97D3-3D2C-ADE0-48E5BBF1B0FD}</Project>
       <Name>zlib</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\zlib_vs2022\build\zlibstatic.vcxproj">
-      <Project>{2CE0B70C-C188-3D53-92DF-B7D403DA1E98}</Project>
+    <ProjectReference Include="E:\zlib_VS2022\build\zlibstatic.vcxproj">
+      <Project>{3FD8338F-0352-3705-BD4E-F9E017E77558}</Project>
       <Name>zlibstatic</Name>
     </ProjectReference>
   </ItemGroup>

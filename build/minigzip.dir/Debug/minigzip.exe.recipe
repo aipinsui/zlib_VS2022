@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\zlib_vs2022\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>E:\zlib_VS2022\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>E:\zlib_vs2022\build\Debug\zlibd.dll</FullPath>
+      <FullPath>E:\zlib_VS2022\build\Debug\zlibd.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>E:\zlib_vs2022\build\Debug\minigzip.exe</FullPath>
+      <FullPath>E:\zlib_VS2022\build\Debug\minigzip.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

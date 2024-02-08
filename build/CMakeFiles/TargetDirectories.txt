@@ -1,8 +1,8 @@
-E:/zlib_vs2022/build/CMakeFiles/zlib.dir
-E:/zlib_vs2022/build/CMakeFiles/zlibstatic.dir
-E:/zlib_vs2022/build/CMakeFiles/example.dir
-E:/zlib_vs2022/build/CMakeFiles/minigzip.dir
-E:/zlib_vs2022/build/CMakeFiles/RUN_TESTS.dir
-E:/zlib_vs2022/build/CMakeFiles/INSTALL.dir
-E:/zlib_vs2022/build/CMakeFiles/ALL_BUILD.dir
-E:/zlib_vs2022/build/CMakeFiles/ZERO_CHECK.dir
+E:/zlib_VS2022/build/CMakeFiles/zlib.dir
+E:/zlib_VS2022/build/CMakeFiles/zlibstatic.dir
+E:/zlib_VS2022/build/CMakeFiles/example.dir
+E:/zlib_VS2022/build/CMakeFiles/minigzip.dir
+E:/zlib_VS2022/build/CMakeFiles/RUN_TESTS.dir
+E:/zlib_VS2022/build/CMakeFiles/INSTALL.dir
+E:/zlib_VS2022/build/CMakeFiles/ALL_BUILD.dir
+E:/zlib_VS2022/build/CMakeFiles/ZERO_CHECK.dir

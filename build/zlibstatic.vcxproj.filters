@@ -1,96 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\zlib_vs2022\adler32.c">
+    <ClCompile Include="E:\zlib_VS2022\adler32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\compress.c">
+    <ClCompile Include="E:\zlib_VS2022\compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\crc32.c">
+    <ClCompile Include="E:\zlib_VS2022\crc32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\deflate.c">
+    <ClCompile Include="E:\zlib_VS2022\deflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\gzclose.c">
+    <ClCompile Include="E:\zlib_VS2022\gzclose.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\gzlib.c">
+    <ClCompile Include="E:\zlib_VS2022\gzlib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\gzread.c">
+    <ClCompile Include="E:\zlib_VS2022\gzread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\gzwrite.c">
+    <ClCompile Include="E:\zlib_VS2022\gzwrite.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\inflate.c">
+    <ClCompile Include="E:\zlib_VS2022\inflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\infback.c">
+    <ClCompile Include="E:\zlib_VS2022\infback.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\inftrees.c">
+    <ClCompile Include="E:\zlib_VS2022\inftrees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\inffast.c">
+    <ClCompile Include="E:\zlib_VS2022\inffast.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\trees.c">
+    <ClCompile Include="E:\zlib_VS2022\trees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\uncompr.c">
+    <ClCompile Include="E:\zlib_VS2022\uncompr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\zlib_vs2022\zutil.c">
+    <ClCompile Include="E:\zlib_VS2022\zutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\zlib_vs2022\build\zconf.h">
+    <ClInclude Include="E:\zlib_VS2022\build\zconf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\zlib_vs2022\zlib.h">
+    <ClInclude Include="E:\zlib_VS2022\zlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\zlib_vs2022\crc32.h">
+    <ClInclude Include="E:\zlib_VS2022\crc32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\zlib_vs2022\deflate.h">
+    <ClInclude Include="E:\zlib_VS2022\deflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\zlib_vs2022\gzguts.h">
+    <ClInclude Include="E:\zlib_VS2022\gzguts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\zlib_vs2022\inffast.h">
+    <ClInclude Include="E:\zlib_VS2022\inffast.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\zlib_vs2022\inffixed.h">
+    <ClInclude Include="E:\zlib_VS2022\inffixed.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\zlib_vs2022\inflate.h">
+    <ClInclude Include="E:\zlib_VS2022\inflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\zlib_vs2022\inftrees.h">
+    <ClInclude Include="E:\zlib_VS2022\inftrees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\zlib_vs2022\trees.h">
+    <ClInclude Include="E:\zlib_VS2022\trees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\zlib_vs2022\zutil.h">
+    <ClInclude Include="E:\zlib_VS2022\zutil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\zlib_vs2022\CMakeLists.txt" />
+    <CustomBuild Include="E:\zlib_VS2022\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{47B30A27-9C28-389A-B445-39E31105AF77}</UniqueIdentifier>
+      <UniqueIdentifier>{31D37954-2E11-36A8-8A06-5A99BC4D73CF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{B65FB717-1A0E-3DB8-9671-76D3A638129A}</UniqueIdentifier>
+      <UniqueIdentifier>{A6EAD3AC-73FF-36F5-995C-8D26FC182E2A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

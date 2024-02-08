@@ -1,3 +1,4 @@
-﻿  Building Custom Rule E:/zlib_vs2022/CMakeLists.txt
+﻿  Building Custom Rule E:/zlib_VS2022/CMakeLists.txt
   minigzip.c
-  minigzip.vcxproj -> E:\zlib_vs2022\build\Debug\minigzip.exe
+  LINK : 没有找到 E:\zlib_VS2022\build\Debug\minigzip.exe 或上一个增量链接没有生成它；正在执行完全链接
+  minigzip.vcxproj -> E:\zlib_VS2022\build\Debug\minigzip.exe
