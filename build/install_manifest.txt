@@ -1,7 +1,0 @@
-E:/zlib_vs2022/package/lib/zlib.lib
-E:/zlib_vs2022/package/bin/zlib.dll
-E:/zlib_vs2022/package/lib/zlibstatic.lib
-E:/zlib_vs2022/package/include/zconf.h
-E:/zlib_vs2022/package/include/zlib.h
-E:/zlib_vs2022/package/share/man/man3/zlib.3
-E:/zlib_vs2022/package/share/pkgconfig/zlib.pc
